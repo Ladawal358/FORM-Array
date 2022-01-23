@@ -1,0 +1,34 @@
+h1 {
+    color: rgb(43, 42, 42);
+    text-shadow: rgb(68, 68, 68) 0.1em 0.1em 0.2em;
+}
+
+body {
+    background-color: #6de2f7ef;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: center;
+    background-color: rgb(75, 72, 64);
+    color: #ffffff;
+}
+
+td,
+th {
+    border: 1px solid #ffffff;
+    padding: 12px;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+td {
+    text-align: center;
+}
